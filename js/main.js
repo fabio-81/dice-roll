@@ -1,3 +1,18 @@
+//****References
+
+//find the .face image
+
+const $face = document.querySelector('.face');
+
+//locate the .result output
+
+const $result = document.querySelector('.result');
+//look for the .roll button
+
+const $btn = document.querySelector('.roll');
+
+//****Logic and Functions
+
 // A random Number between 1 and 6, inclusive
 let roll = Math.floor(Math.random() * 6) + 1
 
@@ -10,14 +25,13 @@ console.log(roll);  // 1, 2, 3, 4, 5, or 6
 // - Using the browser's developer tools to modify the document to look as if you rolled a 5
 // - Write out the "micro" steps you took, like this....
 
-//find the .face image
+
 
 //Change the value of the src attribute of the .face image
 
-//locate the .result output
-
 //Change the value of the content within to reflect the new roll
 
-//look for the .roll button
+
+//Event Listeners
 
 //Listen for the .roll button to be clicked
