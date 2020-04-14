@@ -26,12 +26,13 @@ console.log(roll);  // 1, 2, 3, 4, 5, or 6
 // - Write out the "micro" steps you took, like this....
 
 
-
 //Change the value of the src attribute of the .face image
-
+$face.setAttribute('src', `img/dice${roll}.svg`)
 //Change the value of the content within to reflect the new roll
 
+$result.textContent = (`You rolled: ${roll}`)
 
 //Event Listeners
+
 
 //Listen for the .roll button to be clicked
