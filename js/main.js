@@ -35,14 +35,6 @@ $face.setAttribute('src', `img/dice${roll}.svg`)
 $result.textContent = (`You rolled: ${roll}`)
 }
 
-// ***** Right now you are: *******
-
-// - Building the html and css to look as if we rolled 3
-// - Using the browser's developer tools to modify the document to look as if you rolled a 5
-// - Write out the "micro" steps you took, like this....
-
-
-
 
 // **** Event Listeners
 
