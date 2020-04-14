@@ -59,3 +59,6 @@ $result.textContent = (`You rolled: ${roll}`)
 // **** After the function is created
 
 $btn.addEventListener('click', rollTheDice)
+
+// Do the first roll
+rollTheDice();
