@@ -3,3 +3,9 @@
     max-width: 20em;
     border: 1px solid black;
 }
+.container{
+text-align: center;
+}
+.roll-button{
+    margin: 30px 0;
+}

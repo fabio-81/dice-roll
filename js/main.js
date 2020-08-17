@@ -22,7 +22,7 @@ const rollTheDice = () => {
 
 
 // A random Number between 1 and 6, inclusive
-let roll = Math.floor(Math.random() * 6) + 1
+let roll = Math.floor(Math.random() * 6) +1
 
 console.log(roll);  // 1, 2, 3, 4, 5, or 6
 
@@ -42,9 +42,9 @@ $result.textContent = (`You rolled: ${roll}`)
 
 // **** Before a function is created
 
-//$btn.addEventListener('click', function(){})  **** longer method
+//$btn.addEventListener('click', function(){})  //**** longer method
 
-//$btn.addEventListener('click', () => console.log('click'))  **** test if the click is working
+//$btn.addEventListener('click', () => console.log('click'))  //**** test if the click is working
 
 
 
